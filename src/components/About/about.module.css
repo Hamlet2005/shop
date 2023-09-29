@@ -1,0 +1,178 @@
+.history {
+	width: 60%;
+	height: 745px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	flex-wrap: wrap;
+	top: 120px;
+	bottom: 150px;
+	margin: 0 auto;
+}
+
+.history .historyInfo {
+	width: 42%;
+}
+
+.history .historyInfo .aboutHistory {
+	width: 500px;
+	height: 320px;
+}
+
+.history .historyInfo .aboutHistory h2 {
+	position: relative;
+	bottom: 30px;
+}
+
+.history .historyInfo .aboutHistory p {
+	position: relative;
+	top: 15px;
+	width: 493px;
+	height: 175px;
+}
+
+.history .historyInfo .allSales {
+	position: relative;
+	top: 50px;
+	width: 100%;
+	height: 251px;
+	background: #F8F7F6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.history .historyInfo .allSales .sales div {
+	width: 150px;
+	height: 1px;
+	border-bottom: 1px solid #FFA081;
+}
+
+.history .img {
+	background: url("../../images/history.png") center, center;
+	background-repeat: no-repeat;
+	width: 42%;
+	height: 624px;
+}
+
+.mission {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	height: 566px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.mission .img {
+	position: relative;
+	width: 50%;
+	height: 566px;
+	background: url("../../images/mission.png") center center;
+	background-repeat: no-repeat;
+}
+
+.mission .missionInfo {
+	position: relative;
+	right: 67px;
+	width: 50%;
+}
+
+.mission .missionInfo p {
+	width: 457px;
+}
+
+.begin {
+	width: 100%;
+	height: 437px;
+	background: #F8F7F6;
+	position: relative;
+	top: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.begin .slider {
+	text-align: center;
+	width: 90%;
+}
+
+.begin .slider svg {
+	fill: black;
+}
+
+
+.begin .slider .sliderInfo h2 {
+	position: relative;
+}
+
+.begin .slider .sliderInfo h6{
+	text-align: center;
+}
+
+.begin .slider .sliderInfo p {
+	width: 750px;
+	height: 112px;
+	margin: 0 auto;
+}
+
+.team{
+	position: relative;
+	top: 450px;
+	width: 100%;
+	height: 650px;
+}
+
+.team h2{
+	text-align: center;
+}
+
+.team .block{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+
+.team .block .box, .box2{
+	width: 45%;
+}
+
+.team .block .box h6{
+	text-align: start;
+	font-family: 'Cormorant', serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.team .block .box2 h6{
+	font-family: 'Cormorant', serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: end;
+}
+
+.team .block .box2 {
+	text-align: end;
+}
+
+
+.team .img1, .img2{
+	background: url("../../images/team1.png") center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 370px;
+}
+
+.team .img2{
+	background: url("../../images/team2.png") center center;
+}

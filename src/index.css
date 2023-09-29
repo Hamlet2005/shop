@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Cormorant', serif;
+  font-size: 68px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+}
+
+.p1 {
+  margin-top: 50px;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Cormorant', serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  font-weight: 400;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav h1 {
+  width: 10%;
+}
+
+h5 {
+  color: var(--2, #ADADAD);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+h6 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #FFA081;
+}
+
+nav ul {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  transition: all .2s linear;
+}
+
+.active {
+  color: #FFA081;
+  text-decoration: line-through;
+}
+
+nav .fsu {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+nav .fsu svg {
+  cursor: pointer;
+}
+
+
+.click {
+  position: relative;
+  top: 37px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+}
+
+.click:hover {
+  color: #FFA081;
+  transition: all .2s linear;
+}
+
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 311px;
+  background: #F8F7F6;
+  position: relative;
+  top: 470px;
+  text-align: center;
+}
+
+.footerFlex {
+  width: 70%;
+  margin: 0 auto;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerNav {
+  width: 42%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 75px;
+}
+
+.footerInput {
+  height: 100px;
+  width: 50%;
+}
+
+.footerInput p {
+  position: relative;
+  bottom: 30px;
+}
+
+.footerInput input {
+  border: 0;
+  border-bottom: 1px solid black;
+  background: none;
+  width: 360px;
+  padding: 10px;
+}
+
+
+.footerInput button {
+  position: relative;
+  left: 20px;
+  width: 50px;
+  height: 30px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.footerInput button:hover {
+  transition: all .2s linear;
+  opacity: .7;
+}
+
+.instant .h2 {
+  margin-left: 20%;
+  position: relative;
+  top: 300px;
+}
+
+h6 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link p {
+  position: relative;
+  right: 5px;
+  font-size: 14px;
+  width: 19px;
+  height: 19px;
+  background: #FFA081;
+  border-radius: 50%;
+  bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+svg {
+  fill: black;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+svg:hover {
+  fill: #FFA081;
+  transition: all .2s linear;
+}
+
+@media screen and (max-width: 1440px) {
+  h2 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .footerFlex {
+    width: 100%;
+  }
+  .footerInput{
+    width: 42%;
+  }
+  .footerNav{
+    width: 53%;
+  }
+  .footerInput input{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1172px){
+	h2{
+    font-size: 36px;
+  }
+  p{
+    font-size: 14px;
+  }
+  nav ul{
+    width: 65%;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+	h2{
+    font-size: 24px;
+  }
+  p{
+    font-size: 12px;
+  }
+  
+}

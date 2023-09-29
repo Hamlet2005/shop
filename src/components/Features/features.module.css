@@ -1,0 +1,77 @@
+.service {
+	width: 65%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	row-gap: 150px;
+}
+
+.service .block {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 150px;
+}
+
+.serviceInfo {
+	width: 50%;
+	z-index: 1;
+	position: relative;
+}
+
+.serviceInfo1{
+	width: 48%;
+	z-index: 1;
+	position: relative;
+}
+.serviceInfo{
+	left: 89px;
+}
+
+.serviceInfo1{
+	right: 89px;
+}
+
+.serviseInfo p {
+	width: 488px;
+}
+
+.customers{
+	position: relative;
+	top: 300px;
+	background: #F8F7F6;
+	width: 100%;
+	height: 547px;
+}
+
+
+.slider {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	top: 90px;
+}
+
+.slider svg {
+	fill: black;
+}
+
+.slider .sliderInfo h2 {
+	position: relative;
+}
+
+.slider .sliderInfo p {
+	width: 750px;
+	height: 112px;
+	margin: 0 auto;
+}
+
+.slider .sliderInfo img{
+	margin: 0 auto;
+}

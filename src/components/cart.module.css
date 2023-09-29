@@ -1,0 +1,168 @@
+.cart {
+	width: 70%;
+	margin: 0 auto;
+}
+
+table {
+	width: 100%;
+}
+
+table tr {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+table tr td img {
+	width: 77px;
+	height: 77px;
+}
+
+table .tableHead {
+	background: #F8F7F6;
+	height: 55px;
+}
+
+table .tableBody {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+table button {
+	border: none;
+	padding: 0;
+	width: auto;
+	cursor: pointer;
+}
+
+table button svg {
+	fill: #ADADAD;
+}
+
+table .product,
+.product1 {
+	width: 40%;
+}
+
+.product1 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 55px;
+}
+
+.buy {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.cartOptions,
+.option {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cartOptions .option {
+	width: 50%;
+}
+
+.cartTotal {
+	position: relative;
+	top: 150px;
+}
+
+.cartOptions .btn,.unactive {
+	width: 263px;
+	height: 55px;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	color: #ADADAD;
+	border-bottom: none;
+	cursor: pointer;
+}
+
+.unactive:hover{
+	cursor: auto;
+	background: none;
+	color: #ADADAD;
+}
+
+.cartOptions .btn:hover {
+	transition: all .2s linear;
+	opacity: .6;
+	background: #FFA081;
+	color: #F511A9;
+}
+
+.cartOptions .coupon {
+	background: #F8F7F6;
+}
+
+.cartOptions .apply {
+	border: 1px solid #ADADAD;
+	background: #FFF;
+}
+
+.cartOptions .update {
+	background: #ADADAD;
+	color: #8E8E8E;
+}
+
+
+.cartTotalSubtotal {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cartTotalSubtotal .box1 {
+	background: white;
+	width: 457px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.cartTotalSubtotal .box1 p,h6{
+	padding-left: 30px;
+}
+
+.cartTotalSubtotal .box2,
+.box3 {
+	background: #F8F7F6;
+	width: 293px;
+	height: auto;
+}
+
+.box3 {
+	height: 128px;
+}
+
+.box3,.box2 p{
+	padding: 16px 30px;
+}
+
+
+.cartTotalSubtotal .box1 h6 {
+	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
+	text-decoration: underline;
+}
+
+.box2 {
+	width: 293px;
+}
+
+.cartTotalSubtotal .cartTotalSubtotalInfo {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

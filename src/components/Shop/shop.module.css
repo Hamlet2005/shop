@@ -1,0 +1,250 @@
+.shop {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	top: 110px;
+}
+
+.shopHead {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-self: start;
+}
+
+.shopProduct {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.shopProduct .productInfo {
+	width: 30%;
+}
+
+.productInfo img {
+	width: 100%;
+	transition: all .5s linear;
+}
+
+.productInfo img:hover {
+	opacity: .6;
+}
+
+.shopProduct .productInfo .products {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.shopProduct .productInfo .products p {
+	width: 244px;
+}
+
+.product{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.productPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.active{
+	fill: #FFA081;
+}
+
+.productPage img {
+	width: 360px;
+	height: 360px;
+}
+
+.productPage .productPageInfo h2 {
+	font-size: 28px;
+}
+
+.productPage .productPageInfo h6 {
+	display: flex;
+	font-size: 24px;
+}
+
+.buy {
+	margin-top: 30px; 
+	height: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.buy .buyProduct{
+	width: 265px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+.buy .buyProduct button {
+	width: auto;
+	margin: 0;
+	border: none;	
+	cursor: pointer;
+	transition: all 0.3s linear;
+	padding: 0;
+	text-align: center;
+}
+
+.buy .buyProduct button:hover{
+	opacity: 0.7;
+}
+
+.buy svg{
+	margin-left: 30px
+}
+
+.func {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.func .btn {
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+	transition: all .2s linear;
+}
+
+.func .btn:hover{
+	color: #FFA081;
+}
+
+.func span{
+	margin: 0 21px;
+}
+
+.stock{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	margin-top: 30px;
+}
+
+.slider{
+	margin-top: 47px;
+}
+
+.slick-track{
+	display: flex;
+	gap: 30px;
+}
+
+.productSlider{
+	position: relative;
+	top: 50px;
+	height: 200px;
+}
+
+.products{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.productSlider .slide{
+	position: relative;
+	top: 30px;
+}
+
+.productSlider h2{
+	text-align: center;
+}
+
+.productSlider svg{
+	fill: black;
+}
+
+.link{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.link .li{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	cursor: pointer;
+	color: #ADADAD;
+	transition: all .2s linear; 
+	letter-spacing: 0.48px;
+}
+.link .li:hover{
+	color: #FFA081;
+}
+.li.active{
+	color: #FFA081;
+}
+
+.details li{
+	list-style: inside;
+	letter-spacing: 0.48px;
+	margin-top: 12px;
+}
+
+.description{
+	margin-top: 30px;
+}
+
+.delivery{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.delivery .p{
+	color: #ADADAD;
+	text-decoration: dashed underline;
+	text-underline-offset: 3px;
+}
+
+.delivery .select{
+	width: 265px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.delivery b{
+	margin-top: 30px;
+}
+
+.delivery span{
+	text-decoration: dotted underline;
+	text-underline-offset: 3px;
+} 
+
+.reviews .block .box{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 30px;
+	margin-top: 45px;
+}
+
+.reviews .block .box span{
+	color: #ADADAD;
+}
+
+.reviews .block p{
+	width: 750px;
+}
